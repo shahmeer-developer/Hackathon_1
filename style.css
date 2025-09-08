@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+}
+
+.ul-list > ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.ul-list > ul > li > a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn1 {
+    padding: 16px 48px;
+    background: rgba(124, 78, 228, 1);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.hero {
+    background: rgba(124, 78, 228, 1);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero h6, .hero h1, .hero p {
+    margin-left: 50px;
+    color: white;
+}
+
+.hero h6 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.btn2 {
+    padding: 16px 48px;
+    background: white;
+    border: none;
+    border-radius: 8px;
+    color: rgba(124, 78, 228, 1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 50px;
+}
+
+.firstimg {
+    margin-right: 50px;
+}
+
+
+.imag1{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.imag1>img{
+    height: 400px;
+    width: 75%;
+    position: relative;
+}
+
+.box{
+    height:180px;
+    width: 40%;
+    margin-left: 400px;
+    background-color: white;
+    margin-top: -100px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.para3{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.para4{
+    margin-left: 110px;
+    margin-top: -14px;
+    color:rgba(173, 164, 164, 0.911);
+    font-size: 12px;
+}
+
+.heading3{
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+
+.para5{
+    margin-left: 20px;
+}
+
+.para6{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn3{
+    margin-top: 100px;
+    margin-left: 38%;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.card {
+    width: 900px;
+    height: 400px;
+    background: white;
+    margin: 50px auto;
+    position: relative;
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+.card img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-text {
+    width: 50%;
+    padding: 20px;
+}
+
+.card-text h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.card-text a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 15px;
+    border: 1px solid purple;
+    color: purple;
+    text-decoration: none;
+}
+
